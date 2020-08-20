@@ -5,6 +5,9 @@ array = [
   [99, 50, 3, 4],
   [23, 41]
   ]
+
+  inner_index = 0
+
   # Output all even values in each nested array
 
 end
