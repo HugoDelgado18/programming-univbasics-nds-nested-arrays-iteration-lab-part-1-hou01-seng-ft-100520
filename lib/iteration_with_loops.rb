@@ -12,8 +12,8 @@ def find_even_values(src)
     element_index = 0
 
     while element_index < scr[row_index].count do
-      if array[row_index][element_index].even?
-        p
+      if scr[row_index][element_index].even?
+        p scr[row_index][element_index]
         element_index += 1
     end
     row_index += 1
